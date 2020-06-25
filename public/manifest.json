@@ -1,9 +1,9 @@
 {
-  "name": "nonagon",
-  "short_name": "nonagon",
+  "name": "Nonagon",
+  "short_name": "Nonagon",
   "description": "A little web mobile app that helps you creating Spotify playlists based upon your most listened songs.",
   "start_url": "/",
-  "background_color": "#DFDFDF",
+  "background_color": "#0028B3",
   "display": "minimal-ui",
   "orientation": "portrait",
   "theme_color": "#0028B3",
