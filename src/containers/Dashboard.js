@@ -49,7 +49,7 @@ export class Dashboard extends Component {
       return <Spinner />;
     }
 
-    if (userId && !isEmpty(userId) && userImages && !isEmpty(userImages)) {
+    if (userId && !isEmpty(userId) && userImages) {
       return (
         <Layout>
           {isEmpty(playlistTracks) && (
