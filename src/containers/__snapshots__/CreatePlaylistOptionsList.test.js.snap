@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePlaylistOptionsList renders correctly 1`] = `
+<CreatePlaylistOptionsList__PlaylistOptionsList>
+  <li>
+    <CreatePlaylistOptionsList__PlaylistOptionTitle>
+      Make playlist public
+    </CreatePlaylistOptionsList__PlaylistOptionTitle>
+    <WithTheme(SwitchToggler)
+      checked={false}
+      id="availability"
+      onChange={[Function]}
+    />
+  </li>
+  <li>
+    <CreatePlaylistOptionsList__PlaylistOptionTitle>
+      Playlist danceability
+    </CreatePlaylistOptionsList__PlaylistOptionTitle>
+    <RangeSlider
+      hasCaption={true}
+      onChange={[Function]}
+      value={
+        Array [
+          0,
+          1,
+        ]
+      }
+    />
+  </li>
+  <li>
+    <CreatePlaylistOptionsList__PlaylistOptionTitle>
+      Playlist energy
+    </CreatePlaylistOptionsList__PlaylistOptionTitle>
+    <RangeSlider
+      hasCaption={true}
+      onChange={[Function]}
+      value={
+        Array [
+          0,
+          1,
+        ]
+      }
+    />
+  </li>
+  <li>
+    <CreatePlaylistOptionsList__PlaylistOptionTitle>
+      Playlist valence
+    </CreatePlaylistOptionsList__PlaylistOptionTitle>
+    <RangeSlider
+      hasCaption={true}
+      onChange={[Function]}
+      value={
+        Array [
+          0,
+          1,
+        ]
+      }
+    />
+  </li>
+</CreatePlaylistOptionsList__PlaylistOptionsList>
+`;

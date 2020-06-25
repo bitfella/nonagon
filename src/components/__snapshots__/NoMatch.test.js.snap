@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoMatch renders correctly 1`] = `
+<WithTheme(Layout)>
+  <div
+    isLayoutBodyWrapper={true}
+  >
+    <NoMatch__NoMatchWrapper>
+      <NoMatch__NoMatchHeading>
+        Uh oh 
+        <Emoji
+          label="face with head-bandage"
+          symbol="🤕"
+        />
+      </NoMatch__NoMatchHeading>
+      <NoMatch__NoMatchSubheading>
+        Page not found!
+      </NoMatch__NoMatchSubheading>
+      <NoMatch__NoMatchText>
+        <Link
+          to="/"
+        >
+          Click here
+        </Link>
+         to return to the home page!
+      </NoMatch__NoMatchText>
+    </NoMatch__NoMatchWrapper>
+  </div>
+</WithTheme(Layout)>
+`;

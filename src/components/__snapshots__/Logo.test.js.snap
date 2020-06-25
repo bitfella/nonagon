@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders correctly 1`] = `
+<Logo__LogoWrapper
+  color="#fff"
+  isActive={false}
+  isCompact={false}
+>
+  <span>
+    non
+  </span>
+  <span>
+    9
+  </span>
+  <span>
+    agon
+  </span>
+</Logo__LogoWrapper>
+`;

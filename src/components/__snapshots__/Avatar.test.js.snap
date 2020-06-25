@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders correctly 1`] = `
+<Avatar__AvatarWrapper>
+  <svg
+    viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <pattern
+        height="100"
+        id="img"
+        patternUnits="userSpaceOnUse"
+        width="100"
+      >
+        <image
+          height="89"
+          href="https://www.google.it"
+          width="89"
+          x="6"
+          y="4"
+        />
+      </pattern>
+    </defs>
+    <polygon
+      fill="url(#img)"
+      points="50 3.5 79.5 14.5 95.5 42 90 73 66 93.5 34.5 93.5 10 73 5 42 20 15"
+      strokeWidth="2"
+    />
+  </svg>
+</Avatar__AvatarWrapper>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePlaylistOptionsPanel renders correctly 1`] = `
+<CreatePlaylistOptionsPanel__PlaylistOptionsPanel
+  style={
+    Object {
+      "transform": "translateY(100%)",
+    }
+  }
+>
+  <Connect(CreatePlaylistOptionsList) />
+</CreatePlaylistOptionsPanel__PlaylistOptionsPanel>
+`;

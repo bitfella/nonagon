@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders correctly 1`] = `
+<Error__ErrorWrapper>
+  <Error__ErrorHeading>
+    Too bad! 
+    <Emoji
+      label="face with head-bandage"
+      symbol="🤕"
+    />
+  </Error__ErrorHeading>
+  <Error__ErrorText>
+    Unfortunately something went wrong
+  </Error__ErrorText>
+  <Error__ReloadButton
+    onClick={[Function]}
+  >
+    PLEASE TRY AGAIN
+  </Error__ReloadButton>
+</Error__ErrorWrapper>
+`;

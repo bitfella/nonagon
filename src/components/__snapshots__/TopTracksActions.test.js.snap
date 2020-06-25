@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopTracksActions renders correctly 1`] = `
+<TopTracksActions__TopTracksActionsWrapper>
+  <CreatePlaylistOptionsPanel
+    isOpen={false}
+    setPanelVisibility={[Function]}
+  />
+  <TopTracksActions__TopTracksActionsInner>
+    <Connect(CreatePlaylistCta) />
+    <CreatePlaylistOptionsToggler
+      onClick={[Function]}
+      panelIsOpen={false}
+    />
+  </TopTracksActions__TopTracksActionsInner>
+</TopTracksActions__TopTracksActionsWrapper>
+`;

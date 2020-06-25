@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation renders correctly 1`] = `
+<Confirmation__ConfirmationWrapper>
+  <Confirmation__ConfirmationHeader>
+    <Confirmation__ConfirmationTitle>
+      Mazel Tov
+      , 
+      !
+    </Confirmation__ConfirmationTitle>
+    <Emoji
+      label="rock on"
+      symbol="🤘"
+    />
+  </Confirmation__ConfirmationHeader>
+  <Confirmation__ConfirmationText>
+    Your Playlist was successfully created!
+  </Confirmation__ConfirmationText>
+  <Confirmation__ConfirmationCtaGoTo
+    onClick={[Function]}
+    text="Open playlist in Spotify"
+  />
+  <Confirmation__ConfirmationFooter>
+    or
+     
+    <Confirmation__ConfirmationCtaReload
+      onClick={[Function]}
+    >
+      create another one
+    </Confirmation__ConfirmationCtaReload>
+  </Confirmation__ConfirmationFooter>
+</Confirmation__ConfirmationWrapper>
+`;

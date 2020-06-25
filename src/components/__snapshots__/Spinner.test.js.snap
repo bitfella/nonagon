@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner renders correctly 1`] = `
+<Spinner__SpinnerWrapper>
+  <Emoji
+    label="hourglass not done"
+    symbol="⏳"
+  />
+</Spinner__SpinnerWrapper>
+`;

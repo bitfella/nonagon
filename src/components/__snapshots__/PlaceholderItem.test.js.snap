@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceholderItem renders correctly 1`] = `
+<PlaceholderItem__PlaceholderItemWrapper>
+  <PlaceholderItem__PlaceholderItemPicture />
+  <PlaceholderItem__PlaceholderItemText>
+    <PlaceholderItem__PlaceholderItemTitle />
+    <PlaceholderItem__PlaceholderItemParagraph />
+  </PlaceholderItem__PlaceholderItemText>
+</PlaceholderItem__PlaceholderItemWrapper>
+`;

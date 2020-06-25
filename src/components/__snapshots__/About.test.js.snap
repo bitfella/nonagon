@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About renders correctly 1`] = `
+<WithTheme(Layout)>
+  <div
+    isLayoutBodyWrapper={true}
+  >
+    <About__AboutWrapper>
+      <About__AboutSection>
+        <p>
+          <About__HighlightNonagon>
+            Nonagon
+          </About__HighlightNonagon>
+           is a little web mobile app that helps you creating
+           
+          <About__HighlightSpotify>
+            Spotify
+          </About__HighlightSpotify>
+           playlists based upon your most listened songs.
+        </p>
+        <p>
+          In cheap words, it reads your Spotify top tracks and generates playlists made of Spotify recommendations based on your personal tastes.
+        </p>
+        <About__AboutHeading>
+          Playlist creation options
+           
+          <Emoji
+            label="control knobs"
+            symbol="🎛️"
+          />
+        </About__AboutHeading>
+        <p>
+          Nonagon gives you the ability to customize your generated playlist adjusting the following options in the control panel:
+        </p>
+        <About__AboutSubHeading>
+          Make playlist public
+        </About__AboutSubHeading>
+        <p>
+          By default, Nonagon playlists are private. If you wish to create public playlists, turn the switch on. Please be aware that you can change again this value whenever you wish, in your Spotify app.
+        </p>
+        <About__AboutSubHeading>
+          Playlist danceability
+        </About__AboutSubHeading>
+        <p>
+          Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0% is least danceable and 100% is most danceable.
+        </p>
+        <About__AboutSubHeading>
+          Playlist energy
+        </About__AboutSubHeading>
+        <p>
+          Energy is a measure from 0% to 100% and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+        </p>
+        <About__AboutSubHeading>
+          Playlist valence
+        </About__AboutSubHeading>
+        <p>
+          A measure from 0% to 100% describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+        </p>
+        <About__AboutHeading>
+          Why Nonagon? 
+          <Emoji
+            label="thinking face"
+            symbol="🤔"
+          />
+        </About__AboutHeading>
+        <p>
+          Nonagon was named after one of my favourite records, “Nonagon Infinity” by aussie psych rockers
+           
+          <strong>
+            King Gizzard & the Lizard Wizard
+          </strong>
+           
+          <Emoji
+            label="rock on"
+            symbol="🤘"
+          />
+        </p>
+        <About__AboutHeading>
+          Boring technical stuff 
+          <Emoji
+            label="sleeping face"
+            symbol="😴"
+          />
+        </About__AboutHeading>
+        <p>
+          Nonagon is a client side web application: it does not have any backend and it relies totally on Spotify Web Apis to get data. It does not save your personal data wherever, altough it does save playlist on your Spotify account.
+        </p>
+        <p>
+          Nonagon makes use of the following Spotify authorization scopes:
+        </p>
+        <ul>
+          <li
+            key="0"
+          >
+            user-top-read
+          </li>
+          <li
+            key="1"
+          >
+            playlist-modify-public
+          </li>
+          <li
+            key="2"
+          >
+            playlist-modify-private
+          </li>
+        </ul>
+        <p>
+          Learn more about Spotify Scopes
+           
+          <a
+            href="https://developer.spotify.com/documentation/general/guides/scopes/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Spotify Scopes"
+          >
+            here
+          </a>
+          .
+        </p>
+        <About__AboutHeading>
+          Privacy 
+          <Emoji
+            label="locked with key"
+            symbol="🔐"
+          />
+        </About__AboutHeading>
+        <p>
+          Nonagon does not save any cookie on your browser and does not use any kind of tracking platform.
+        </p>
+        <p>
+          Nonagon just saves a Spotify authorization token and some of your app preferences on local storage: this is mandatory to make the app work. You can easily delete them clearing your browser data.
+        </p>
+      </About__AboutSection>
+    </About__AboutWrapper>
+  </div>
+</WithTheme(Layout)>
+`;

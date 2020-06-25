@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePlaylistCta renders correctly 1`] = `
+<CreatePlaylistCta__StyledCreatePlaylistCta
+  disabled={false}
+  onClick={[Function]}
+>
+  <span>
+    CREATE PLAYLIST
+  </span>
+</CreatePlaylistCta__StyledCreatePlaylistCta>
+`;

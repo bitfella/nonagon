@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tastes renders correctly 1`] = `
+<Tastes__TastesWrapper>
+  <Tastes__RangeSwitch>
+    <Tastes__RangeButton
+      activeRange="short_term"
+      key="0"
+      onClick={[Function]}
+      range="short_term"
+    >
+      short term
+    </Tastes__RangeButton>
+    <Tastes__RangeButton
+      activeRange="short_term"
+      key="1"
+      onClick={[Function]}
+      range="medium_term"
+    >
+      medium term
+    </Tastes__RangeButton>
+    <Tastes__RangeButton
+      activeRange="short_term"
+      key="2"
+      onClick={[Function]}
+      range="long_term"
+    >
+      long term
+    </Tastes__RangeButton>
+  </Tastes__RangeSwitch>
+  <Connect(TopTracks) />
+</Tastes__TastesWrapper>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Callback renders correctly 1`] = `
+<WithTheme(Layout)>
+  <div
+    isLayoutBodyWrapper={true}
+  >
+    <Error />
+  </div>
+</WithTheme(Layout)>
+`;

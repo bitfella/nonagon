@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<Header__HeaderWrapper
+  topPos={0}
+>
+  <Header__HeaderInner>
+    <Logo
+      color="#fff"
+      isCompact={true}
+    />
+    <Header__MainNavWrapper
+      isFloating={false}
+    />
+  </Header__HeaderInner>
+</Header__HeaderWrapper>
+`;

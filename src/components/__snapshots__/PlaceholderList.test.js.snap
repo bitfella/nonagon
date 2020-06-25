@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceholderList renders correctly 1`] = `
+Array [
+  <PlaceholderItem
+    key="0"
+  />,
+  <PlaceholderItem
+    key="1"
+  />,
+  <PlaceholderItem
+    key="2"
+  />,
+]
+`;
