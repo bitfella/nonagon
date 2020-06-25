@@ -1,6 +1,6 @@
 {
   "name": "nonagon",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
   "description": "Nonagon is a single page React/Redux application whose purpose is the creation of Spotify playlists based upon user's personal tastes",
   "keywords": [
