@@ -15,6 +15,7 @@ import {
 import Track from 'components/Track';
 import TopTracksActions from 'components/TopTracksActions';
 import PlaceholderList from 'components/PlaceholderList';
+import NoTracks from 'components/NoTracks';
 
 const TopTracksList = styled.ol`
   margin: 0;
@@ -54,25 +55,26 @@ export class TopTracks extends Component {
       return <PlaceholderList items={5} />;
     }
 
-    return (
-      <>
-        <TopTracksList>
-          {!isEmpty(tracks) &&
-            tracks.items.map(item => {
-              return (
-                <Track
-                  key={item.id}
-                  songName={item.name}
-                  artists={item.artists}
-                  images={item.album.images}
-                  uri={item.uri}
-                />
-              );
-            })}
-        </TopTracksList>
-        <TopTracksActions />
-      </>
-    );
+    if (!isEmpty(tracks.items)) {
+      return (
+        <>
+          <TopTracksList>
+            {tracks.items.map(item => (
+              <Track
+                key={item.id}
+                songName={item.name}
+                artists={item.artists}
+                images={item.album.images}
+                uri={item.uri}
+              />
+            ))}
+          </TopTracksList>
+          <TopTracksActions />
+        </>
+      );
+    }
+
+    return <NoTracks />;
   }
 }
 
