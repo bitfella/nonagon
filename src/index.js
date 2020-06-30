@@ -6,7 +6,7 @@ import App from 'components/App';
 import configureStore, { history } from 'configureStore';
 
 Sentry.init({
-  dsn: "https://004eeaed176f483abd20cb735c00f174@o412640.ingest.sentry.io/5290599",
+  dsn: process.env.REACT_APP_SENTRY_DSN,
   environment: process.env.NODE_ENV
 });
 
