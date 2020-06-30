@@ -123,7 +123,7 @@ const About = () => (
           <p>
             Nonagon is a client side web application: it does not have any
             backend and it relies totally on Spotify Web Apis to get data. It
-            does not save your personal data wherever, altough it does save
+            does not save your personal data wherever, although it does save
             playlist on your Spotify account.
           </p>
           <p>
