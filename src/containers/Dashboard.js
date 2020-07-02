@@ -5,7 +5,7 @@ import { isEmpty } from 'lodash-es';
 import { getUser } from 'actions/user';
 import {
   getToken,
-  getUserId,
+  getUserDisplayName,
   getUserImages,
   userLoading,
   userError,
@@ -13,7 +13,7 @@ import {
 } from 'selectors';
 import handleError from 'services/handleError';
 import Layout from 'components/Layout';
-import Welcome from 'containers/Welcome';
+import Welcome from 'components/Welcome';
 import Confirmation from 'containers/Confirmation';
 import Tastes from 'containers/Tastes';
 import Spinner from 'components/Spinner';
@@ -21,7 +21,7 @@ import Spinner from 'components/Spinner';
 export class Dashboard extends Component {
   static propTypes = {
     accessToken: PropTypes.string,
-    userId: PropTypes.string,
+    userDisplayName: PropTypes.string,
     userImages: PropTypes.array,
     userLoading: PropTypes.bool,
     userError: PropTypes.object,
@@ -34,7 +34,7 @@ export class Dashboard extends Component {
 
   render() {
     const {
-      userId,
+      userDisplayName,
       userImages,
       userLoading,
       userError,
@@ -49,11 +49,11 @@ export class Dashboard extends Component {
       return <Spinner />;
     }
 
-    if (userId && !isEmpty(userId) && userImages) {
+    if (userDisplayName && userImages) {
       return (
         <Layout>
           {isEmpty(playlistTracks) && (
-            <Welcome userId={userId} userImages={userImages} />
+            <Welcome userDisplayName={userDisplayName} userImages={userImages} />
           )}
           <div isLayoutBodyWrapper>
             {isEmpty(playlistTracks) ? <Tastes /> : <Confirmation />}
@@ -68,7 +68,7 @@ export class Dashboard extends Component {
 
 const mapStateToProps = state => ({
   accessToken: getToken(state),
-  userId: getUserId(state),
+  userDisplayName: getUserDisplayName(state),
   userImages: getUserImages(state),
   userLoading: userLoading(state),
   userError: userError(state),
