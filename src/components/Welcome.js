@@ -35,36 +35,36 @@ const Message = styled.h3`
 
 export class Welcome extends Component {
   static propTypes = {
-    userId: PropTypes.string.isRequired,
+    userDisplayName: PropTypes.string.isRequired,
     userImages: PropTypes.array,
     greeting: PropTypes.string
   };
 
   render() {
-    const { userId, userImages, greeting } = this.props;
+    const { userDisplayName, userImages, greeting } = this.props;
     const salute = greeting ? greeting : sample(greetingsList);
 
-    if (userId && userImages) {
+    if (userDisplayName && userImages) {
       return (
         <WelcomeWrapper>
           {userImages && userImages.length >= 1 ? (
-            <Avatar src={userImages[0].url} alt={userId} />
+            <Avatar src={userImages[0].url} alt={userDisplayName} />
           ) : (
-            <Avatar
-              src={getAlternativeImageSrc(
-                userId,
-                300,
-                300,
-                this.props.theme.colors.f,
-                this.props.theme.colors.g,
-                this.props.theme.fonts.body,
-                '5rem'
-              )}
-              alt={userId}
-            />
-          )}
+              <Avatar
+                src={getAlternativeImageSrc(
+                  userDisplayName,
+                  300,
+                  300,
+                  this.props.theme.colors.f,
+                  this.props.theme.colors.g,
+                  this.props.theme.fonts.body,
+                  '5rem'
+                )}
+                alt={userDisplayName}
+              />
+            )}
           <Message>
-            {salute}, <span>{userId}</span>!
+            {salute}, <span>{userDisplayName}</span>!
           </Message>
         </WelcomeWrapper>
       );
