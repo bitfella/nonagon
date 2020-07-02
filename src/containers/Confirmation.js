@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 import PropTypes from 'prop-types';
 import Emoji from 'components/Emoji';
 import SpotifyButton from 'components/SpotifyButton';
-import { getUserId, getPlaylistImages, getPlaylistURI } from 'selectors';
+import { getUserDisplayName, getPlaylistImages, getPlaylistURI } from 'selectors';
 import { goToURI } from 'utils';
 
 export const greetingsList = [
@@ -98,14 +98,14 @@ export class Confirmation extends Component {
   };
 
   render() {
-    const { id, images, greeting } = this.props;
+    const { userDisplayName, images, greeting } = this.props;
     const salute = greeting ? greeting : sample(greetingsList);
 
     return (
       <ConfirmationWrapper>
         <ConfirmationHeader>
           <ConfirmationTitle>
-            {salute}, {id}!
+            {salute}, {userDisplayName}!
           </ConfirmationTitle>
           <Emoji symbol="🤘" label="rock on" />
         </ConfirmationHeader>
@@ -135,7 +135,7 @@ export class Confirmation extends Component {
 const mapStateToProps = state => ({
   images: getPlaylistImages(state),
   uri: getPlaylistURI(state),
-  id: getUserId(state)
+  userDisplayName: getUserDisplayName(state)
 });
 
 export default connect(

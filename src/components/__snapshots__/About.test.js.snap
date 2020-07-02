@@ -126,7 +126,7 @@ exports[`About renders correctly 1`] = `
           />
         </About__AboutHeading>
         <p>
-          Nonagon does not save any cookie on your browser and does not use any kind of tracking platform.
+          Nonagon does not save any cookie on your browser (apart from Spotify API ones) and does not use any kind of tracking platform.
         </p>
         <p>
           Nonagon just saves a Spotify authorization token and some of your app preferences on local storage: this is mandatory to make the app work. You can easily delete them clearing your browser data.
