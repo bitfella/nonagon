@@ -57,7 +57,7 @@
   "dependencies": {
     "@sentry/browser": "^5.18.0",
     "connected-react-router": "^6.7.0",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
